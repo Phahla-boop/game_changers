@@ -233,10 +233,7 @@ nav a.active {
     font-size: 0.9rem;
   }
 }
-/* Page basics (keep your existing styles) */
-header nav ul { list-style: none; padding: 0; margin: 0; display: flex; gap: 12px; flex-wrap: wrap; }
-header nav a { text-decoration: none; }
-header nav a.active { text-decoration: underline; }
+
 
 /* Hero */
 .hero {
@@ -311,4 +308,5 @@ header nav a.active { text-decoration: underline; }
   .hero { padding: 36px 16px; }
   .card { padding: 16px; }
 }
+
 
