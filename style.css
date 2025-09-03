@@ -234,23 +234,6 @@ nav a.active {
   }
 }
 
-
-/* Hero */
-.hero {
-  text-align: center;
-  padding: 48px 20px;
-  background: #673ab7;
-  color: #fff;
-}
-.hero h2 { margin: 0 0 10px; }
-
-/* Grid for solution cards */
-.grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
-  gap: 18px;
-  padding: 20px;
-}
 .card {
   background: #fff;
   border-radius: 10px;
@@ -308,5 +291,6 @@ nav a.active {
   .hero { padding: 36px 16px; }
   .card { padding: 16px; }
 }
+
 
 
