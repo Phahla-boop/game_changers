@@ -7,19 +7,21 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <h1>Game Changers Technologies</h1>
-    <p>Digital Solutions. Real Impact.</p>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About Us</a></li>
-        <li><a href="solutions.html">Solutions</a></li>
-        <li><a href="market.html">Market & Strategy</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
+ <header class="site-header">
+  <h1>Game Changers Technologies</h1>
+  <button class="menu-toggle" onclick="toggleMenu()">☰ Menu</button>
+  
+  <nav aria-label="Main navigation">
+    <ul id="nav-menu">
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="solutions.html">Solutions</a></li>
+      <li><a href="market.html">Market & Strategy</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
   
     <!-- Hero Section -->
   <section class="hero">
@@ -30,13 +32,21 @@
     </div>
   </section>
   
-    <main>
-    <h2>Welcome to Game Changers Technologies</h2>
+   <main>
+  <section>
+    <h2>Our Mission</h2>
     <p>We are bridging the digital divide in rural education through innovative mobile and web-based applications.</p>
-   
-  </main>
+  </section>
+</main>
+
   <footer>
     <p>&copy; 2025 Game Changers Technologies. All rights reserved.</p>
   </footer>
+  <script>
+  function toggleMenu() {
+    document.getElementById("nav-menu").classList.toggle("show");
+  }
+</script>
 </body>
+
 </html>
