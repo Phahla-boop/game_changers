@@ -255,5 +255,12 @@ footer {
   .hero { padding: 36px 16px; }
   .card { padding: 16px; }
 }
+/* Solutions Hero */
+.solutions-hero {
+  background: linear-gradient(135deg, #004aad, #003080);
+  color: #fff;
+  text-align: center;
+  padding: 80px 20px;
+}
 
 
